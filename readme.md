@@ -48,6 +48,7 @@ func WriteSitemap(articles []*MyArticle) error {
 		}
 	}
 
+    // the base url of your sitemap, aka where is it hosted
 	return sg.WriteIndex("http://cdn.example.com")
 }
 ```
