@@ -7,14 +7,14 @@ Once again I'm unable to find a suitable sitemap generator, so I created my own 
 Module installation
 
 ```bash
-go get https://github.com/CaledoniaProject/gopkg-sitemap
+go get github.com/CaledoniaProject/gopkg-sitemap
 ```
 
 Module usage
 
 ```go
 import (
-    "https://github.com/CaledoniaProject/gopkg-sitemap"
+    "github.com/CaledoniaProject/gopkg-sitemap"
 )
 
 // your source of sitemap
